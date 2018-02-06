@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_boot_COIDE /IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_drivers /IF:\Lance\ActiveSemi\aging\cmsis_core /IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_peripheral /IF:\Lance\ActiveSemi\aging">
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_memctl_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_memory.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_clear_if.c" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_UART.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_int.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_config.c" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc_reset.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_int_clear.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_ADC.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_int_enable.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog.h" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_I2C.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_set_period.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc_emux.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_uart.h" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_slave.c" lastModified="1552879d910">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_PowerManager.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_uart_config.c" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_uart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmInstr.h" lastModified="14760def410">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_int.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge_config_io.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_config_clock.c" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_clear.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_SystemManager.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_RTC.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_cctrl_capture_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_reset.c" lastModified="152ce91fce0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_Timers.h" lastModified="161550c236c">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc_clear_if.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_core\core_cm0.h" lastModified="14760def028">
+         <include file="..\..\..\cmsis_core\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis_core\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge.c" lastModified="155287ebb10">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_WDT.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\cmsis_core\core_cmFunc.h" lastModified="14760def410">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_boot_COIDE\system_pac5xxx.h" lastModified="15528654b58">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_dtg_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio_io_enable.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge_config.c" lastModified="155287dc8e0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_write.c" lastModified="1552874dfa0">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_cctrl_int.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_SocBridge.h" lastModified="155287adae0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_cctrl_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_read.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_clock_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h" lastModified="152ce91f510">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_int.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge_burst.c" lastModified="155287fd450">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_arm.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio_interrupt.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge_validate.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system_pll_config_mhz.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_SignalManager.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_Memory.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_io.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_arm_sleep.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_arm.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc_seq.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system_pll_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_SYS.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge_data.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile.h" lastModified="155287e0760">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c.h" lastModified="15528741c50">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system_ccs_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_SPI.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_capture_latch_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h" lastModified="155287b2900">
+         <include file="..\..\..\cmsis_core\core_cm0.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_boot_COIDE\system_pac5xxx.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_ADC.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_GPIO.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_I2C.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_Memory.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_SPI.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_SocBridge.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_SYS.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_Timers.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_UART.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_WDT.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_RTC.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_SignalManager.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_SystemManager.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_DriverManager.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_PowerManager.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_memory.h" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac52XX.h"/>
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_config.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_GPIO.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_master.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi.h"/>
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_peripheral\pac5xxx_tile_DriverManager.h" lastModified="152ce91fce0">
+      </source>
+      <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc_config.c" lastModified="152ce91f510">
+         <include file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_drivers /IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_peripheral /IF:\Lance\ActiveSemi\aging">
+      <source file="..\..\..\main.c" lastModified="161592ba1fa">
+         <include file="..\..\..\bldc_common.h"/>
+      </source>
+   </includePath>
+</dependencies>

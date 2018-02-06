@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O0 -c -DPAC5250 -IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_boot_COIDE -IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_drivers -IF:\Lance\ActiveSemi\aging\cmsis_core -IF:\Lance\ActiveSemi\aging\pac5xxx_sdk\pac5xxx_peripheral -IF:\Lance\ActiveSemi\aging">
+      <target file="pac5xxx_driver_i2c_read.o" lastModified="16159300640">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_read.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_set_period.o" lastModified="161592fc9d8">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_set_period.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_watchdog_config.o" lastModified="161592fe0d1">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_config.c" lastModified="152ce91fce0"/>
+      </target>
+      <target file="pac5xxx_driver_system_ccs_config.o" lastModified="161592f6148">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system_ccs_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_tile_socbridge.o" lastModified="1615930052f">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge.c" lastModified="155287ebb10"/>
+      </target>
+      <target file="pac5xxx_driver_spi_config_master.o" lastModified="16159300c6d">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_master.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_tile_socbridge_config.o" lastModified="16159301001">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_i2c_write.o" lastModified="161592fdff4">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_write.c" lastModified="1552874dfa0"/>
+      </target>
+      <target file="pac5xxx_driver_socbridge_config_io.o" lastModified="161592f58f4">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge_config_io.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_spi_config_slave.o" lastModified="161592f5efb">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_slave.c" lastModified="1552879d910"/>
+      </target>
+      <target file="pac5xxx_driver_tile_socbridge_burst.o" lastModified="161592f2f0a">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge_burst.c" lastModified="155287fd450"/>
+      </target>
+      <target file="pac5xxx_driver_adc_config.o" lastModified="161592ff46b">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_base_config.o" lastModified="161592fe8b1">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_i2c_int.o" lastModified="161592fcde3">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_int.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_gpio_io_enable.o" lastModified="161592fe622">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio_io_enable.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_rtc_config.o" lastModified="161592ffe4f">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_cctrl_capture_config.o" lastModified="161592feae8">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_cctrl_capture_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_socbridge_config.o" lastModified="16159300043">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge_config.c" lastModified="155287dc8e0"/>
+      </target>
+      <target file="pac5xxx_driver_timer_base_int_enable.o" lastModified="161592fef6e">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_int_enable.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_clock_config.o" lastModified="161592fc5bc">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_clock_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_rtc_reset.o" lastModified="161592f303b">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc_reset.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_adc_emux.o" lastModified="161592fdb33">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc_emux.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_system_pll_config.o" lastModified="161592fe22d">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system_pll_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_rtc_clear_if.o" lastModified="16159300994">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_rtc_clear_if.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_clear.o" lastModified="16159300e0d">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_clear.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_gpio_interrupt.o" lastModified="161592ff2cd">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_gpio_interrupt.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="sl_peripheral_init.o" lastModified="161593c9766">
+         <source file="..\..\..\sl_peripheral_init.c" lastModified="16159337eb7"/>
+      </target>
+      <target file="pac5xxx_driver_watchdog_config_clock.o" lastModified="161592f2fc8">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_config_clock.c" lastModified="152ce91fce0"/>
+      </target>
+      <target file="pac5xxx_driver_watchdog_reset.o" lastModified="161592ff9df">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_reset.c" lastModified="152ce91fce0"/>
+      </target>
+      <target file="pac5xxx_driver_tile_socbridge_validate.o" lastModified="161592ff8af">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_tile_socbridge_validate.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_watchdog_clear_if.o" lastModified="161593008f0">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_watchdog_clear_if.c" lastModified="152ce91fce0"/>
+      </target>
+      <target file="pac5xxx_driver_spi_config_int.o" lastModified="161592fe478">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_int.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_cctrl_config.o" lastModified="161592fd1fd">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_cctrl_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_socbridge_data.o" lastModified="16159300813">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_socbridge_data.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_base_int_clear.o" lastModified="16159300b51">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_int_clear.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_base_int.o" lastModified="161592f4b9c">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_base_int.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_dtg_config.o" lastModified="161592f94c4">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_dtg_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_i2c_config.o" lastModified="161592f76eb">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_i2c_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="main.o" lastModified="161593c7161">
+         <source file="..\..\..\main.c" lastModified="161592ba1fa"/>
+      </target>
+      <target file="pac5xxx_driver_system_pll_config_mhz.o" lastModified="161592fab1f">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_system_pll_config_mhz.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_adc_seq.o" lastModified="161592ffd2a">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_adc_seq.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_spi_config_io.o" lastModified="161592ff5d3">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_spi_config_io.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_uart_config.o" lastModified="16159300325">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_uart_config.c" lastModified="152ce91fce0"/>
+      </target>
+      <target file="pac5xxx_driver_arm_sleep.o" lastModified="16159300176">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_arm_sleep.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_capture_latch_config.o" lastModified="161592f3ecd">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_capture_latch_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_memctl_config.o" lastModified="161592fd302">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_memctl_config.c" lastModified="152ce91f510"/>
+      </target>
+      <target file="pac5xxx_driver_timer_cctrl_int.o" lastModified="161592f7182">
+         <source file="..\..\..\pac5xxx_sdk\pac5xxx_drivers\pac5xxx_driver_timer_cctrl_int.c" lastModified="152ce91f510"/>
+      </target>
+   </processor>
+</history>

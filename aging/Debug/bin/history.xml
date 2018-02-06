@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=aging.map -O0 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\aging -TD:\CooCox\CoIDE\configuration\ProgramData\aging/arm-gcc-link.ld -g">
+      <target file="aging.elf" lastModified="1615914234d">
+         <source file="..\obj\main.o" lastModified="16159142124"/>
+      </target>
+   </processor>
+</history>

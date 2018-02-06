@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 1.7.7" name="aging">
+  <Target name="aging" isCurrent="1">
+    <Device manufacturerId="11" manufacturerName="Active-Semi" chipId="640" chipName="PAC5250" boardId="" boardName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="SupportCPlusplus" value="0"/>
+        <Includepaths>
+          <Includepath path="."/>
+          <Includepath path="pac5xxx_sdk/pac5xxx_drivers"/>
+          <Includepath path="pac5xxx_sdk/pac5xxx_peripheral"/>
+          <Includepath path="pac5xxx_sdk/pac5xxx_boot_coide"/>
+          <Includepath path="cmsis_core"/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="PAC5250"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="nostartfiles" value="1"/>
+        <Option name="LTO" value="0"/>
+        <Option name="IsNewStartupCode" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00008000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00002000" startValue="0x20000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="" startValue=""/>
+        </MemoryAreas>
+        <LocateLinkFile path="d:/coocox/coide/configuration/programdata/aging/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="./"/>
+        <Option name="Name" value="aging"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="1M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="SYSRESETREQ"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="PAC5XXX.elf"/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./"/>
+  <Files>
+    <File name="sdk/pac5xxx_driver_timer_cctrl_capture_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_cctrl_capture_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_spi_config_slave.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_spi_config_slave.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_dtg_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_dtg_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_i2c_int.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_i2c_int.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_tile_socbridge_burst.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_tile_socbridge_burst.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_tile_socbridge_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_tile_socbridge_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_system_ccs_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_system_ccs_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_watchdog_clear_if.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_watchdog_clear_if.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_base_int_enable.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_base_int_enable.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_socbridge_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_socbridge_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_system_pll_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_system_pll_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_gpio_interrupt.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_gpio_interrupt.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_watchdog_reset.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_watchdog_reset.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_base_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_base_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_rtc_clear_if.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_rtc_clear_if.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_tile_socbridge_validate.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_tile_socbridge_validate.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_watchdog_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_watchdog_config.c" type="1"/>
+    <File name="sdk" path="" type="2"/>
+    <File name="sdk/pac5xxx_driver_timer_clear.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_clear.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_capture_latch_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_capture_latch_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_spi_config_master.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_spi_config_master.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_i2c_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_i2c_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_cctrl_int.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_cctrl_int.c" type="1"/>
+    <File name="sl_peripheral_init.c" path="sl_peripheral_init.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_socbridge_config_io.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_socbridge_config_io.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_adc_seq.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_adc_seq.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_clock_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_clock_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_rtc_reset.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_rtc_reset.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_memctl_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_memctl_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_uart_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_uart_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_adc_emux.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_adc_emux.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_i2c_read.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_i2c_read.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_set_period.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_set_period.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_arm_sleep.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_arm_sleep.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_socbridge_data.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_socbridge_data.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_base_int_clear.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_base_int_clear.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_rtc_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_rtc_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_tile_socbridge.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_tile_socbridge.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_spi_config_int.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_spi_config_int.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_system_pll_config_mhz.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_system_pll_config_mhz.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_adc_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_adc_config.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_spi_config_io.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_spi_config_io.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_i2c_write.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_i2c_write.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_gpio_io_enable.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_gpio_io_enable.c" type="1"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_watchdog_config_clock.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_watchdog_config_clock.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_base_int.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_base_int.c" type="1"/>
+    <File name="sdk/pac5xxx_driver_timer_cctrl_config.c" path="pac5xxx_sdk/pac5xxx_drivers/pac5xxx_driver_timer_cctrl_config.c" type="1"/>
+  </Files>
+</Project>
